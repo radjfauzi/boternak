@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+	<category>
+		<pattern>ayam</pattern>
+		<template>
+			Oke, di sini kita punya informasi tentang pakan, kesehatan, dan pengelolaan kandang. Ingin tahu tentang apa?
+		</template>
+	</category>
+
+	<category>
+		<pattern>pakan ayam</pattern>
+		<template>
+			Mau tau tentang bahan pakan ayam, cara membuat pakan ayam, atau tata cara pemberian pakan ayam?
+		</template>
+	</category>
+
+	<category>
+		<pattern>bahan pakan ayam</pattern>
+		<template>
+			Tersedia informasi bahan pakan ayam kampung, ayam pedaging, dan ayam petelur. Ingin tahu tentang ayam apa?
+		</template>
+	</category>
+
+	<category>
+		<pattern>cara membuat pakan ayam</pattern>
+		<template>
+			Tersedia informasi cara membuat pakan ayam kampung, ayam pedaging, dan ayam petelur. Ingin tahu tentang ayam apa?
+		</template>
+	</category>
+
+	<category>
+		<pattern>tata cara pemberian pakan ayam</pattern>
+		<template>
+			Tersedia informasi tata cara pemberian pakan ayam kampung, ayam pedaging, dan ayam petelur. Ingin tahu tentang ayam apa?
+		</template>
+	</category>
+
+	<category>
+		<pattern>bahan pakan ayam kampung</pattern>
+		<template>
+			1. Pohon talas 1 kg
+			2. Beras dolog ½ kg
+			3. Dedak ½ kg
+			4. Tepung tulang 1 sdm
+			5. Air (untuk merebus)
+		</template>
+	</category>
+
+	<category>
+		<pattern>tata cara pemberian pakan ayam kampung</pattern>
+		<template>
+			1. ½ sampai ¼ kg per tempat pakan ukuran sedang.
+			2. Dua kali sehari: pagi dan sore.
+			3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
+			4. Tempat minum harus selalu diisi.
+		</template>
+	</category>
+
+	<category>
+		<pattern>cara membuat pakan ayam kampung</pattern>
+		<template>
+			1. Giling umbi, daun, dan batang talas menjadi potongan-potoangan kecil berukuran 1 cm.
+			2. Campurkan dengan bahan lain: beras dolog, dedak, dan tepung tulang menjadi satu.
+			3. Tambahkan air, kemudian rebus hingga tercampur rata.
+			4. Angkat pakan ayam dan dinginkan.
+			5. Berikan kepada ayam dengan cara yang benar.
+		</template>
+	</category>
+
+	<category>
+		<pattern>bahan pakan ayam pedaging</pattern>
+		<template>
+			1. Jagung 5 kg
+			2. Bekatul 0,7 kg
+			3. Sorgum 1 kg
+			4. Tepung gaplek 0,5 kg
+			5. Tepung ikan 0,3 kg
+			6. Tepung darah 0,3 kg
+			7. Kedelai 0,9 kg
+			8. Bungkil kelapa 0,5 kg
+			9. Bungkil biji kapuk 0,05 kg
+			10. Tepung daun pepaya 0,25 kg
+			11. Tepung bulu ayam 0,25 kg
+			12. Minyak kelapa 0,1 kg
+			13. Premix 0,05 kg
+	</category>
+
+	<category>
+		<pattern>tata cara pemberian pakan ayam pedaging</pattern>
+		<template>
+			1. ½ sampai ¼ kg per tempat pakan ukuran sedang.
+			2. Dua kali sehari: pagi dan sore.
+			3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
+			4. Tempat minum harus selalu diisi.
+		</template>
+	</category>
+
+	<category>
+		<pattern>cara membuat pakan ayam kampung</pattern>
+		<template>
+			1. Campurkan semua bahan.
+			2, Haluskan hingga menjadi tepung (mesin penepung).
+			3. Aduk dengan mesin mixer sampai tercampur rata.
+			4. Kukus dengan suhu sekitar 800 – 900 derajat Celcius hingga matang.
+			5. Saat adonan masih hangat, cetak adonan dengan mesin pencetak krambel.
+			6. Keringkan pelet dengan mesin pengering.
+			7. Pakan ayam siap diberikan.
+		</template>
+	</category>
+
+	<category>
+		<pattern>bahan pakan ayam petelur</pattern>
+		<template>
+			1. Sorgum
+			2. Singkong
+			3. Dedak padi
+			4. Bekatul
+			5. Jagung
+			6. Kacang tanah
+			7. Tepun ikan
+			8. Ampas tahu
+			9. Ampas kedelai
+			10. Ampas kelapa
+			11. Ragi (jika dibutuhkan)
+			12. Air
+	</category>
+
+	<category>
+		<pattern>tata cara pemberian pakan ayam pedaging</pattern>
+		<template>
+			1. ½ sampai ¼ kg per tempat pakan ukuran sedang.
+			2. Dua kali sehari: pagi dan sore.
+			3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
+			4. Tempat minum harus selalu diisi.
+		</template>
+	</category>
+
+	<category>
+		<pattern>cara membuat pakan ayam kampung</pattern>
+		<template>
+			1. Jemur semua bahan selama 1 – 2 minggu hingga kering.
+			2. Campurkan seluruh bahan. Bisa menggunakan mesin penghalus.
+			3. Jemur kembali selama sekitar 1 – 2 hari
+			4. Gunakan bantuan terpal untuk mempercepat pengeringan
+			5. Campurkan bahan dengan sumplemen tambahan.
+			6. Tambahkan air secukupnya, kemudian diaduk hingga merata.
+			7. Berikan pakan pada ayam dengan cara yang benar.
+		</template>
+	</category>
+
+	<category>
+		<pattern>kesehatan ayam</pattern>
+		<template>
+			Ingin tahu tentang jenis penyakit pada ayam atau pencegahan penyakit?
+		</template>
+	</category>	
+
+	<category>
+		<pattern>pencegahan penyakit ayam</pattern>
+		<template>
+			Pencegahan ayam terkena penyakit:
+			1. Menjaga kebersihan kandang secara teratur.
+			2. Pemberian vaksin
+			3. Pemberian vitamin
+		</template>
+	</category>
+
+	<category>
+		<pattern>jenis penyakit ayam</pattern>
+		<template>
+			Beberapa jenis penyakit yang sering ditemukan:
+			1. Penyakit Snot
+			2. Penyakit ngorok atau Chronic Respiratory Disease ( CDR )
+			3. Penyakit Infectious Laryngotracheitis (ILT)
+			4. Penyakit Telelo
+		</template>
+	</category>	
+
+	<category>
+		<pattern>penyakit snot</pattern>
+		<template>
+			Snot atau ingus adalah penyakit yang disebabkan oleh bakteri bernama Haemophillus Gallinarum yang dapat menyerang ayam dewasa hingga anak ayam.
+			Gejalanya:
+			1. Mata mengeluarkan cairan
+			2. Sayap menurun dan menggantung
+			3. Hidung mengeluarkan cairan kental berwarna kuning
+			Penanganannya:
+			1. Isolasi ayam
+			Pencegahannya:
+			1. Bersihkan kandang ayam secara teratur.
+			2. Pemberian vitamin
+		</template>
+	</category>	
+
+	<category>
+		<pattern>penyakit ngorok</pattern>
+		<template>
+			Penyakit ngorok atau Chronic Respiratory Disease d isebabkan oleh Bakteri Microplasma Galisepticum. Penyerangan penyakit ini biasanya menyerang ayam pada usia 4 s/d 9 minggu  ditularkan melalui kontak mata secara langsung, peralatan kandang, makanan minuman  serta telur ayam yang terinfeksi.
+			Gejalanya:
+			1. Sering menggeleng gelengkan kepala.
+			2. Mendengkur besar.
+			3. Terdapat eksudat berbuih pada ayam.
+			Penanganannya:
+			1. Pemberian baytrit sekitar 10%
+			2. Pemberian mycomas 0.5 ml/L air minum.
+		</template>
+	</category>	
+
+	<category>
+		<pattern>penyakit infectious laryngotracheitis</pattern>
+		<template>
+			Penyakit ILT atau Infectius Laryngotracheitis merupakan penyakit yang disebabkan oleh virus Herpes yang menginfeksi pada saluran pernafasan yang mempunyai ciri yaitu kesulitan bernafas dan terkadang juga sering menjulurkan leher. Gejalanya:
+			1. Sesak nafas.
+			2. Peradangan pada bagian hidung.
+		</template>
+	</category>	
+
+	<category>
+		<pattern>penyakit tetelo</pattern>
+		<template>
+			Penyakit Telelo disebabkan oleh virus paramyxo merupakan infeksi paling viral yang dapat menyebabkan gangguan pada saraf pernafasan.
+		</template>
+	</category>	
+
+	<category>
+		<pattern>pengelolaan kandang ayam</pattern>
+		<template>
+			1. Lokasi kandang ke arah matahari dan jangan terlalu dekat dari rumah.
+			2. Ditempatkan pada tempat yang kering.
+			3. Sesuaikan ukuran kandang ayam dengan jumlah ayam.
+			4. Alas harus terbuat dari serat kayu yang selau kering.
+			5. Pisahkan ayam sakit dengan ayam sehat.
+			6. Cucilah kandang dan peralatannya secara teratur.
+		</template>
+	</category>	
+
+		<category>
+		<pattern>pengelolaan kandang kambing</pattern>
+		<template>
+			1. Dibuat dari bahan yang kuat
+			2. Memiliki ventilasi baik
+			3. Atap kandang memantulkan panas dengan baik.
+			4. Lantai kandang tidak keras, tidak licin, tidak mudah tembus air, tahan lama dan tidak cepat panas atau dingin.
+			5. Pada kolong kandang dibuat lubang sedalam 10 – 15 cm untuk menampung kotoran. 
+			6. Lokasikan kandang pada tempat yang kering.
+			7. Jarak kandang dengan rumah dan sumur ± 10 meter.
+			8. Cukup mendapat sinar matahari dan terlindung dari angin kencang.
+		</template>
+	</category>	
+</aiml>	
