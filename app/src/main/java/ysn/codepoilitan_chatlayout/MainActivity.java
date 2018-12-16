@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         listDataSms = new ArrayList<>();
         DataSms dataSms = new DataSms();
-        dataSms.setPesan("Hello, apa kabar?");
+        dataSms.setPesan("Selamat datang di Boternak! Kami menyediakan kumpulan informasi mengenai pengelolaan peternakan. Kamu ingin bertanya tentang hewan ternak apa?");
         dataSms.setWaktu(simpleDateFormat.format(new Date()));
         listDataSms.add(dataSms);
 
@@ -143,8 +143,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (view == floatingActionButtonKirimPesan) {
             String pesan = editTextIsiPesan.getText().toString();
             if (TextUtils.isEmpty(pesan)) {
-                Snackbar.make(findViewById(android.R.id.content), "Pesan belum di isi!!!", Snackbar.LENGTH_LONG)
-                        .show();
                 editTextIsiPesan.setError("Pesan kosong");
             } else {
                 editTextIsiPesan.setText("");
