@@ -1,6 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
 <aiml>
 	<category>
+		<pattern>Kambing</pattern>
+		<template>
+			Oke, disini kita punya informasi tentang pakan kambing, kesehatan kambing, dan pengelolaan kandang kambing. ingin tahu tentang apa?
+		</template>
+	</category>
+
+	<category>
+		<pattern>Pakan kambing</pattern>
+		<template>
+			1. Rumput dan tanaman hijau.
+			2. Berikan makanan fermentasi (ketik 'makanan fermentasi' untuk info lebih lanjut).
+			3. Beri minum yang cukup
+		</template>
+	</category>
+
+	<category>
+		<pattern>Makanan fermentasi</pattern>
+		<template>
+			Kelebihan:
+			1. Mengatasi dan memperbaiki sistem pencernaan.
+			2. Kambing menjadi sehat dan gemuk.
+			3. Daging menjadi lebih rendah kolesterol untuk dikonsumsi.
+			4. Menambah nafsu makan.
+			5. Menjaga kekebalan dan sistem imun.
+			6. Kotoran yang dihasilkan lebih sedikit.
+
+			Ingin tahu cara pembuatnya? ketik 'pembuatan makanan fermentasi'
+		</template>
+	</category>
+
+	<category>
+		<pattern>Pembuatan makanan fermentasi</pattern>
+		<template>
+			Bahan:
+			1. 5-8 ikat jerami padi kering
+			2. 20-25 liter tetes tebu atau molase. (bisa diganti gula larut)
+			3. 1 botol probiotik
+			4. 250-300 liter air
+			5. 30kg dedak padi 
+			Ketik 'cara pembuatan makanan fermentasi' untuk tahu langkah-langkahnya
+		</template>
+	</category>
+
+	<category>
+		<pattern>Cara pembuatan makanan fermentasi</pattern>
+		<template>
+			1. Sediakan wadah tempat pembuatan (drum, tembok semen dsb).
+			2. Potong jerami kering ukuran 5cm.
+			3. Larutkan tetes tebu/gula serta probiotik menjadi satu.
+			4. Siapkan terpal untuk mencampur jerami dengan larutan.
+			5. Letakan jerami padi di terpal secara merata dengan ketebalan 20cm.
+			6. Taburkan dedak padi secara merata dan siram larutan.
+			7. Masukan campuran jerami ke dalam wadah.
+			8. Tutup rapat wadah.
+			9. Setelah 14 hari, barulah pakan dapat diberikan.
+		</template>
+	</category>
+
+	<category>
+		<pattern>Kesehatan kambing</pattern>
+		<template>
+			Menjaga kesehatan kambing:
+			1. bersihkan kandang secara teratur.
+			2. pemberian vaksin.
+			3. pemberian pakan yang teratur dengan komposisi yang tepat.
+			4. kebutuhan air minum tercukupi.
+			Ketik 'jenis penyakit kambing' untuk mengetahui jenis penyakit.
+		</template>
+	</category>
+
+	<category>
+		<pattern>Jenis penyakit kambing</pattern>
+		<template>
+			1. Antraks
+			2. Perut kembung
+			3. Kudis
+			4. Cacingan
+			5. Dangkangan
+			6. Mastitis
+			7. Radang kuku
+			ketik jika ingin tahu lebih lanjut
+		</template>
+	</category>
+
+	<category>
+		<pattern>Antraks</pattern>
+		<template>
+			Disebabkan oleh Bacillus anthracis. dapat menular melalui kontak langsung.
+			Gejala:
+			1. Badan lemas
+			2. Gemetar
+			3. Mengeluarkan darah dari organ pengeluaran
+		</template>
+	</category>
+
+	<category>
+		<pattern>Perut Kembung</pattern>
+		<template>
+			Disebabkan oleh cuaca terlalu dingin, rumput terlalu basah, dan kandang kurang bagus.
+			Gejala:
+			1. Perut terlihat membesar.
+			2. Sulit berdiri
+			3. Nafsu makan berkurang
+			4. Sulit buang air
+		</template>
+	</category>
+
+	<category>
+		<pattern>Kudis</pattern>
+		<template>
+			Disebabkan oleh parasit.
+			Gejala:
+			1. Permukaan kulit mengelupas
+			2. Bulu mudah rontok
+			3. ternak menjadi kurus
+		</template>
+	</category>
+
+	<category>
+		<pattern>Cacingan</pattern>
+		<template>
+			Disebabkan oleh sistem pencernaan yang tidak normal dan parasit.
+			Gejala:
+			1. Perut buncit
+			2. Diare
+			3. Nafsu makan berkurang
+			4. lemah dan lesu
+		</template>
+	</category>
+
+	<category>
+		<pattern>Dangkangan</pattern>
+		<template>
+			Disebabkan oleh pakan yang berbulu dan berdebu.
+			Gejala:
+			1. Mulut korengan
+			2. Benjolan di sekitar mulut
+			3. Nafsu makan berkurang
+
+		</template>
+	</category>
+
+	<category>
+		<pattern>Mastitis</pattern>
+		<template>
+			Disebabkan oleh bakteri Staphylococcus aureus.
+			Gejala:
+			1. Produksi susu menurun
+			2. Produksi susu yang dihasilkan tidak baik
+		</template>
+	</category>
+
+	<category>
+		<pattern>Radang Kuku</pattern>
+		<template>
+			Disebabkan oleh kandang yang terlalu kotor dan lembab
+			Gejala:
+			1. Bengkak pada kuku
+			2. Kuku mengeluarkan cairan
+			3. Kuku mulai mengelupas
+		</template>
+	</category>
+
+	<category>
 		<pattern>NAMA LENGKAP KAMU APA</pattern>
 		<template>
 			Nama lengkap saya Chatbot Popoyo.
@@ -127,4 +291,4 @@
 			</condition>
 		</template>		
 	</category>
-</aiml>	
+</aiml>

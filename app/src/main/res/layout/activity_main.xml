@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/back_recycler_view"
+        android:src="@drawable/back_recycle_view"
         android:scaleType="centerCrop"/>
 
     <android.support.v7.widget.RecyclerView
