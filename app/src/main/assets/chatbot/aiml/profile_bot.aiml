@@ -1,20 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
 <aiml>
+
 	<category>
-		<pattern>Kambing</pattern>
+		<pattern>sapi</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>bebek</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>burung *</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>burung</pattern>
+		<template>
+			<srai>burung *</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>kuda</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>kerbau</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>angsa</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>soang</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>domba</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>unta</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>ikan *</pattern>
+		<template>
+			Maaf, untuk saat ini kita hanya mempunyai informasi hewan ternak kambing dan ayam. Maaf ya :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>ikan</pattern>
+		<template>
+			<srai>burung *</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>kambing</pattern>
 		<template>
 			Oke, disini kita punya informasi tentang pakan kambing, kesehatan kambing, dan pengelolaan kandang kambing. ingin tahu tentang apa?
 		</template>
 	</category>
 
 	<category>
-		<pattern>Pakan kambing</pattern>
+		<pattern>pakan kambing</pattern>
 		<template>
 			1. Rumput dan tanaman hijau.
-			2. Berikan makanan fermentasi (ketik 'makanan fermentasi' untuk info lebih lanjut).
-			3. Beri minum yang cukup
+		2. Berikan makanan fermentasi (ketik 'makanan fermentasi' untuk info lebih lanjut).
+		3. Beri minum yang cukup.
 		</template>
 	</category>
+
+	<category>
+		<pattern>* pakan kambing *</pattern>
+		<template>
+			<srai>pakan kambing</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* pakan kambing</pattern>
+		<template>
+			<srai>pakan kambing</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>pakan kambing *</pattern>
+		<template>
+			<srai>pakan kambing</srai>
+		</template>
+	</category>
+
 
 	<category>
 		<pattern>Makanan fermentasi</pattern>
@@ -27,7 +134,7 @@
 			5. Menjaga kekebalan dan sistem imun.
 			6. Kotoran yang dihasilkan lebih sedikit.
 
-			Ingin tahu cara pembuatnya? ketik 'pembuatan makanan fermentasi'
+			Ingin tahu cara pembuatnya? ketik 'pembuatan makanan fermentasi'.
 		</template>
 	</category>
 
@@ -40,7 +147,8 @@
 			3. 1 botol probiotik
 			4. 250-300 liter air
 			5. 30kg dedak padi 
-			Ketik 'cara pembuatan makanan fermentasi' untuk tahu langkah-langkahnya
+
+			Ketik 'cara pembuatan makanan fermentasi' untuk tahu langkah-langkahnya.
 		</template>
 	</category>
 
@@ -48,14 +156,14 @@
 		<pattern>Cara pembuatan makanan fermentasi</pattern>
 		<template>
 			1. Sediakan wadah tempat pembuatan (drum, tembok semen dsb).
-			2. Potong jerami kering ukuran 5cm.
-			3. Larutkan tetes tebu/gula serta probiotik menjadi satu.
-			4. Siapkan terpal untuk mencampur jerami dengan larutan.
-			5. Letakan jerami padi di terpal secara merata dengan ketebalan 20cm.
-			6. Taburkan dedak padi secara merata dan siram larutan.
-			7. Masukan campuran jerami ke dalam wadah.
-			8. Tutup rapat wadah.
-			9. Setelah 14 hari, barulah pakan dapat diberikan.
+		2. Potong jerami kering ukuran 5cm.
+		3. Larutkan tetes tebu/gula serta probiotik menjadi satu.
+		4. Siapkan terpal untuk mencampur jerami dengan larutan.
+		5. Letakan jerami padi di terpal secara merata dengan ketebalan 20cm.
+		6. Taburkan dedak padi secara merata dan siram larutan.
+		7. Masukan campuran jerami ke dalam wadah.
+		8. Tutup rapat wadah.
+		9. Setelah 14 hari, barulah pakan dapat diberikan.
 		</template>
 	</category>
 
@@ -63,11 +171,33 @@
 		<pattern>Kesehatan kambing</pattern>
 		<template>
 			Menjaga kesehatan kambing:
-			1. bersihkan kandang secara teratur.
-			2. pemberian vaksin.
-			3. pemberian pakan yang teratur dengan komposisi yang tepat.
-			4. kebutuhan air minum tercukupi.
-			Ketik 'jenis penyakit kambing' untuk mengetahui jenis penyakit.
+		1. bersihkan kandang secara teratur.
+		2. pemberian vaksin.
+		3. pemberian pakan yang teratur dengan komposisi yang tepat.
+		4. kebutuhan air minum tercukupi.
+
+		Ketik 'jenis penyakit kambing' untuk mengetahui jenis penyakit.
+		</template>
+	</category>
+
+	<category>
+		<pattern>* kesehatan kambing *</pattern>
+		<template>
+			<srai>kesehatan kambing</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* kesehatan kambing</pattern>
+		<template>
+			<srai>kesehatan kambing</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>kesehatan kambing *</pattern>
+		<template>
+			<srai>kesehatan kambing</srai>
 		</template>
 	</category>
 
@@ -75,13 +205,14 @@
 		<pattern>Jenis penyakit kambing</pattern>
 		<template>
 			1. Antraks
-			2. Perut kembung
-			3. Kudis
-			4. Cacingan
-			5. Dangkangan
-			6. Mastitis
-			7. Radang kuku
-			ketik jika ingin tahu lebih lanjut
+		2. Perut kembung
+		3. Kudis
+		4. Cacingan
+		5. Dangkangan
+		6. Mastitis
+		7. Radang kuku
+
+			Ingin tahu lebih detil? ketikkan nama penyakit yang ingin diketahui.
 		</template>
 	</category>
 
@@ -89,10 +220,10 @@
 		<pattern>Antraks</pattern>
 		<template>
 			Disebabkan oleh Bacillus anthracis. dapat menular melalui kontak langsung.
-			Gejala:
-			1. Badan lemas
-			2. Gemetar
-			3. Mengeluarkan darah dari organ pengeluaran
+		Gejala:
+		1. Badan lemas
+		2. Gemetar
+		3. Mengeluarkan darah dari organ pengeluaran
 		</template>
 	</category>
 
@@ -100,11 +231,11 @@
 		<pattern>Perut Kembung</pattern>
 		<template>
 			Disebabkan oleh cuaca terlalu dingin, rumput terlalu basah, dan kandang kurang bagus.
-			Gejala:
-			1. Perut terlihat membesar.
-			2. Sulit berdiri
-			3. Nafsu makan berkurang
-			4. Sulit buang air
+		Gejala:
+		1. Perut terlihat membesar.
+		2. Sulit berdiri
+		3. Nafsu makan berkurang
+		4. Sulit buang air
 		</template>
 	</category>
 
@@ -112,10 +243,10 @@
 		<pattern>Kudis</pattern>
 		<template>
 			Disebabkan oleh parasit.
-			Gejala:
-			1. Permukaan kulit mengelupas
-			2. Bulu mudah rontok
-			3. ternak menjadi kurus
+		Gejala:
+		1. Permukaan kulit mengelupas
+		2. Bulu mudah rontok
+		3. ternak menjadi kurus
 		</template>
 	</category>
 
@@ -123,11 +254,11 @@
 		<pattern>Cacingan</pattern>
 		<template>
 			Disebabkan oleh sistem pencernaan yang tidak normal dan parasit.
-			Gejala:
-			1. Perut buncit
-			2. Diare
-			3. Nafsu makan berkurang
-			4. lemah dan lesu
+		Gejala:
+		1. Perut buncit
+		2. Diare
+		3. Nafsu makan berkurang
+		4. lemah dan lesu
 		</template>
 	</category>
 
@@ -135,10 +266,10 @@
 		<pattern>Dangkangan</pattern>
 		<template>
 			Disebabkan oleh pakan yang berbulu dan berdebu.
-			Gejala:
-			1. Mulut korengan
-			2. Benjolan di sekitar mulut
-			3. Nafsu makan berkurang
+		Gejala:
+		1. Mulut korengan
+		2. Benjolan di sekitar mulut
+		3. Nafsu makan berkurang
 
 		</template>
 	</category>
@@ -147,9 +278,9 @@
 		<pattern>Mastitis</pattern>
 		<template>
 			Disebabkan oleh bakteri Staphylococcus aureus.
-			Gejala:
-			1. Produksi susu menurun
-			2. Produksi susu yang dihasilkan tidak baik
+		Gejala:
+		1. Produksi susu menurun
+		2. Produksi susu yang dihasilkan tidak baik
 		</template>
 	</category>
 
@@ -157,14 +288,14 @@
 		<pattern>Radang Kuku</pattern>
 		<template>
 			Disebabkan oleh kandang yang terlalu kotor dan lembab
-			Gejala:
-			1. Bengkak pada kuku
-			2. Kuku mengeluarkan cairan
-			3. Kuku mulai mengelupas
+		Gejala:
+		1. Bengkak pada kuku
+		2. Kuku mengeluarkan cairan
+		3. Kuku mulai mengelupas
 		</template>
 	</category>
 
-	<category>
+		<category>
     		<pattern>ayam</pattern>
     		<template>
     			Oke, di sini kita punya informasi tentang pakan, kesehatan, dan pengelolaan kandang. Ingin tahu tentang apa?
@@ -182,6 +313,8 @@
     		<pattern>bahan pakan ayam</pattern>
     		<template>
     			Tersedia informasi bahan pakan ayam kampung, ayam pedaging, dan ayam petelur. Ingin tahu tentang ayam apa?
+
+    			Misal: 'bahan pakan ayam kampung'.
     		</template>
     	</category>
 
@@ -189,6 +322,8 @@
     		<pattern>cara membuat pakan ayam</pattern>
     		<template>
     			Tersedia informasi cara membuat pakan ayam kampung, ayam pedaging, dan ayam petelur. Ingin tahu tentang ayam apa?
+
+    			Misal: 'cara membuat pakan ayam kampung'.
     		</template>
     	</category>
 
@@ -196,6 +331,8 @@
     		<pattern>tata cara pemberian pakan ayam</pattern>
     		<template>
     			Tersedia informasi tata cara pemberian pakan ayam kampung, ayam pedaging, dan ayam petelur. Ingin tahu tentang ayam apa?
+
+    			Misal: 'pemberian pakan ayam kampung'.
     		</template>
     	</category>
 
@@ -203,20 +340,20 @@
     		<pattern>bahan pakan ayam kampung</pattern>
     		<template>
     			1. Pohon talas 1 kg
-    			2. Beras dolog ½ kg
-    			3. Dedak ½ kg
-    			4. Tepung tulang 1 sdm
-    			5. Air (untuk merebus)
+    		2. Beras dolog ½ kg
+    		3. Dedak ½ kg
+    		4. Tepung tulang 1 sdm
+    		5. Air (untuk merebus)
     		</template>
     	</category>
 
     	<category>
-    		<pattern>tata cara pemberian pakan ayam kampung</pattern>
+    		<pattern>pemberian pakan ayam kampung</pattern>
     		<template>
     			1. ½ sampai ¼ kg per tempat pakan ukuran sedang.
-    			2. Dua kali sehari: pagi dan sore.
-    			3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
-    			4. Tempat minum harus selalu diisi.
+    		2. Dua kali sehari: pagi dan sore.
+    		3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
+    		4. Tempat minum harus selalu diisi.
     		</template>
     	</category>
 
@@ -224,10 +361,10 @@
     		<pattern>cara membuat pakan ayam kampung</pattern>
     		<template>
     			1. Giling umbi, daun, dan batang talas menjadi potongan-potoangan kecil berukuran 1 cm.
-    			2. Campurkan dengan bahan lain: beras dolog, dedak, dan tepung tulang menjadi satu.
-    			3. Tambahkan air, kemudian rebus hingga tercampur rata.
-    			4. Angkat pakan ayam dan dinginkan.
-    			5. Berikan kepada ayam dengan cara yang benar.
+    		2. Campurkan dengan bahan lain: beras dolog, dedak, dan tepung tulang menjadi satu.
+    		3. Tambahkan air, kemudian rebus hingga tercampur rata.
+    		4. Angkat pakan ayam dan dinginkan.
+    		5. Berikan kepada ayam dengan cara yang benar.
     		</template>
     	</category>
 
@@ -235,27 +372,28 @@
     		<pattern>bahan pakan ayam pedaging</pattern>
     		<template>
     			1. Jagung 5 kg
-    			2. Bekatul 0,7 kg
-    			3. Sorgum 1 kg
-    			4. Tepung gaplek 0,5 kg
-    			5. Tepung ikan 0,3 kg
-    			6. Tepung darah 0,3 kg
-    			7. Kedelai 0,9 kg
-    			8. Bungkil kelapa 0,5 kg
-    			9. Bungkil biji kapuk 0,05 kg
-    			10. Tepung daun pepaya 0,25 kg
-    			11. Tepung bulu ayam 0,25 kg
-    			12. Minyak kelapa 0,1 kg
-    			13. Premix 0,05 kg
+    		2. Bekatul 0,7 kg
+    		3. Sorgum 1 kg
+    		4. Tepung gaplek 0,5 kg
+    		5. Tepung ikan 0,3 kg
+    		6. Tepung darah 0,3 kg
+    		7. Kedelai 0,9 kg
+    		8. Bungkil kelapa 0,5 kg
+    		9. Bungkil biji kapuk 0,05 kg
+    		10. Tepung daun pepaya 0,25 kg
+    		11. Tepung bulu ayam 0,25 kg
+    		12. Minyak kelapa 0,1 kg
+    		13. Premix 0,05 kg
+    		</template>
     	</category>
 
     	<category>
-    		<pattern>tata cara pemberian pakan ayam pedaging</pattern>
+    		<pattern>pemberian pakan ayam pedaging</pattern>
     		<template>
     			1. ½ sampai ¼ kg per tempat pakan ukuran sedang.
-    			2. Dua kali sehari: pagi dan sore.
-    			3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
-    			4. Tempat minum harus selalu diisi.
+    		2. Dua kali sehari: pagi dan sore.
+    		3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
+    		4. Tempat minum harus selalu diisi.
     		</template>
     	</category>
 
@@ -263,12 +401,12 @@
     		<pattern>cara membuat pakan ayam kampung</pattern>
     		<template>
     			1. Campurkan semua bahan.
-    			2, Haluskan hingga menjadi tepung (mesin penepung).
-    			3. Aduk dengan mesin mixer sampai tercampur rata.
-    			4. Kukus dengan suhu sekitar 800 – 900 derajat Celcius hingga matang.
-    			5. Saat adonan masih hangat, cetak adonan dengan mesin pencetak krambel.
-    			6. Keringkan pelet dengan mesin pengering.
-    			7. Pakan ayam siap diberikan.
+    		2. Haluskan hingga menjadi tepung (mesin penepung).
+    		3. Aduk dengan mesin mixer sampai tercampur rata.
+    		4. Kukus dengan suhu sekitar 800 – 900 derajat Celcius hingga matang.
+    		5. Saat adonan masih hangat, cetak adonan dengan mesin pencetak krambel.
+    		6. Keringkan pelet dengan mesin pengering.
+    		7. Pakan ayam siap diberikan.
     		</template>
     	</category>
 
@@ -276,26 +414,27 @@
     		<pattern>bahan pakan ayam petelur</pattern>
     		<template>
     			1. Sorgum
-    			2. Singkong
-    			3. Dedak padi
-    			4. Bekatul
-    			5. Jagung
-    			6. Kacang tanah
-    			7. Tepun ikan
-    			8. Ampas tahu
-    			9. Ampas kedelai
-    			10. Ampas kelapa
-    			11. Ragi (jika dibutuhkan)
-    			12. Air
+    		2. Singkong
+    		3. Dedak padi
+    		4. Bekatul
+    		5. Jagung
+    		6. Kacang tanah
+    		7. Tepun ikan
+    		8. Ampas tahu
+    		9. Ampas kedelai
+    		10. Ampas kelapa
+    		11. Ragi (jika dibutuhkan)
+    		12. Air
+    		</template>
     	</category>
 
     	<category>
-    		<pattern>tata cara pemberian pakan ayam pedaging</pattern>
+    		<pattern>pemberian pakan ayam pedaging</pattern>
     		<template>
     			1. ½ sampai ¼ kg per tempat pakan ukuran sedang.
-    			2. Dua kali sehari: pagi dan sore.
-    			3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
-    			4. Tempat minum harus selalu diisi.
+    		2. Dua kali sehari: pagi dan sore.
+    		3. Sebelum diberikan, aduk campuran bahan pakan dan air dengan merata.
+    		4. Tempat minum harus selalu diisi.
     		</template>
     	</category>
 
@@ -303,19 +442,19 @@
     		<pattern>cara membuat pakan ayam kampung</pattern>
     		<template>
     			1. Jemur semua bahan selama 1 – 2 minggu hingga kering.
-    			2. Campurkan seluruh bahan. Bisa menggunakan mesin penghalus.
-    			3. Jemur kembali selama sekitar 1 – 2 hari
-    			4. Gunakan bantuan terpal untuk mempercepat pengeringan
-    			5. Campurkan bahan dengan sumplemen tambahan.
-    			6. Tambahkan air secukupnya, kemudian diaduk hingga merata.
-    			7. Berikan pakan pada ayam dengan cara yang benar.
+    		2. Campurkan seluruh bahan. Bisa menggunakan mesin penghalus.
+    		3. Jemur kembali selama sekitar 1 – 2 hari
+    		4. Gunakan bantuan terpal untuk mempercepat pengeringan
+    		5. Campurkan bahan dengan sumplemen tambahan.
+    		6. Tambahkan air secukupnya, kemudian diaduk hingga merata.
+    		7. Berikan pakan pada ayam dengan cara yang benar.
     		</template>
     	</category>
 
     	<category>
     		<pattern>kesehatan ayam</pattern>
     		<template>
-    			Ingin tahu tentang jenis penyakit pada ayam atau pencegahan penyakit?
+    			Ingin tahu tentang 'jenis penyakit ayam' atau 'pencegahan penyakit ayam'?
     		</template>
     	</category>
 
@@ -323,9 +462,9 @@
     		<pattern>pencegahan penyakit ayam</pattern>
     		<template>
     			Pencegahan ayam terkena penyakit:
-    			1. Menjaga kebersihan kandang secara teratur.
-    			2. Pemberian vaksin
-    			3. Pemberian vitamin
+    		1. Menjaga kebersihan kandang secara teratur.
+    		2. Pemberian vaksin
+    		3. Pemberian vitamin
     		</template>
     	</category>
 
@@ -333,54 +472,56 @@
     		<pattern>jenis penyakit ayam</pattern>
     		<template>
     			Beberapa jenis penyakit yang sering ditemukan:
-    			1. Penyakit Snot
-    			2. Penyakit ngorok atau Chronic Respiratory Disease ( CDR )
-    			3. Penyakit Infectious Laryngotracheitis (ILT)
-    			4. Penyakit Telelo
+    		1. Snot
+    		2. Ngorok
+    		3. Infectious Laryngotracheitis
+    		4. Telelo
+
+    		Ingin tahu lebih detil? ketikkan nama penyakit yang ingin diketahui.
     		</template>
     	</category>
 
     	<category>
-    		<pattern>penyakit snot</pattern>
+    		<pattern>snot</pattern>
     		<template>
     			Snot atau ingus adalah penyakit yang disebabkan oleh bakteri bernama Haemophillus Gallinarum yang dapat menyerang ayam dewasa hingga anak ayam.
-    			Gejalanya:
-    			1. Mata mengeluarkan cairan
-    			2. Sayap menurun dan menggantung
-    			3. Hidung mengeluarkan cairan kental berwarna kuning
-    			Penanganannya:
-    			1. Isolasi ayam
-    			Pencegahannya:
-    			1. Bersihkan kandang ayam secara teratur.
-    			2. Pemberian vitamin
+    		Gejalanya:
+    		1. Mata mengeluarkan cairan
+    		2. Sayap menurun dan menggantung
+    		3. Hidung mengeluarkan cairan kental berwarna kuning
+    		Penanganannya:
+    		1. Isolasi ayam
+    		Pencegahannya:
+    		1. Bersihkan kandang ayam secara teratur.
+    		2. Pemberian vitamin
     		</template>
     	</category>
 
     	<category>
-    		<pattern>penyakit ngorok</pattern>
+    		<pattern>ngorok</pattern>
     		<template>
     			Penyakit ngorok atau Chronic Respiratory Disease d isebabkan oleh Bakteri Microplasma Galisepticum. Penyerangan penyakit ini biasanya menyerang ayam pada usia 4 s/d 9 minggu  ditularkan melalui kontak mata secara langsung, peralatan kandang, makanan minuman  serta telur ayam yang terinfeksi.
-    			Gejalanya:
-    			1. Sering menggeleng gelengkan kepala.
-    			2. Mendengkur besar.
-    			3. Terdapat eksudat berbuih pada ayam.
-    			Penanganannya:
-    			1. Pemberian baytrit sekitar 10%
-    			2. Pemberian mycomas 0.5 ml/L air minum.
+    		Gejalanya:
+    		1. Sering menggeleng gelengkan kepala.
+    		2. Mendengkur besar.
+    		3. Terdapat eksudat berbuih pada ayam.
+    		Penanganannya:
+    		1. Pemberian baytrit sekitar 10%
+    		2. Pemberian mycomas 0.5 ml/L air minum.
     		</template>
     	</category>
 
     	<category>
-    		<pattern>penyakit infectious laryngotracheitis</pattern>
+    		<pattern>infectious laryngotracheitis</pattern>
     		<template>
     			Penyakit ILT atau Infectius Laryngotracheitis merupakan penyakit yang disebabkan oleh virus Herpes yang menginfeksi pada saluran pernafasan yang mempunyai ciri yaitu kesulitan bernafas dan terkadang juga sering menjulurkan leher. Gejalanya:
-    			1. Sesak nafas.
-    			2. Peradangan pada bagian hidung.
+    		1. Sesak nafas.
+    		2. Peradangan pada bagian hidung.
     		</template>
     	</category>
 
     	<category>
-    		<pattern>penyakit tetelo</pattern>
+    		<pattern>tetelo</pattern>
     		<template>
     			Penyakit Telelo disebabkan oleh virus paramyxo merupakan infeksi paling viral yang dapat menyebabkan gangguan pada saraf pernafasan.
     		</template>
@@ -390,25 +531,25 @@
     		<pattern>pengelolaan kandang ayam</pattern>
     		<template>
     			1. Lokasi kandang ke arah matahari dan jangan terlalu dekat dari rumah.
-    			2. Ditempatkan pada tempat yang kering.
-    			3. Sesuaikan ukuran kandang ayam dengan jumlah ayam.
-    			4. Alas harus terbuat dari serat kayu yang selau kering.
-    			5. Pisahkan ayam sakit dengan ayam sehat.
-    			6. Cucilah kandang dan peralatannya secara teratur.
+    		2. Ditempatkan pada tempat yang kering.
+    		3. Sesuaikan ukuran kandang ayam dengan jumlah ayam.
+    		4. Alas harus terbuat dari serat kayu yang selau kering.
+    		5. Pisahkan ayam sakit dengan ayam sehat.
+    		6. Cucilah kandang dan peralatannya secara teratur.
     		</template>
     	</category>
 
-    		<category>
+    	<category>
     		<pattern>pengelolaan kandang kambing</pattern>
     		<template>
     			1. Dibuat dari bahan yang kuat
-    			2. Memiliki ventilasi baik
-    			3. Atap kandang memantulkan panas dengan baik.
-    			4. Lantai kandang tidak keras, tidak licin, tidak mudah tembus air, tahan lama dan tidak cepat panas atau dingin.
-    			5. Pada kolong kandang dibuat lubang sedalam 10 – 15 cm untuk menampung kotoran.
-    			6. Lokasikan kandang pada tempat yang kering.
-    			7. Jarak kandang dengan rumah dan sumur ± 10 meter.
-    			8. Cukup mendapat sinar matahari dan terlindung dari angin kencang.
+    		2. Memiliki ventilasi baik
+    		3. Atap kandang memantulkan panas dengan baik.
+    		4. Lantai kandang tidak keras, tidak licin, tidak mudah tembus air, tahan lama dan tidak cepat panas atau dingin.
+    		5. Pada kolong kandang dibuat lubang sedalam 10 – 15 cm untuk menampung kotoran.
+    		6. Lokasikan kandang pada tempat yang kering.
+    		7. Jarak kandang dengan rumah dan sumur ± 10 meter.
+    		8. Cukup mendapat sinar matahari dan terlindung dari angin kencang.
     		</template>
     	</category>
 </aiml>
