@@ -1,8 +1,6 @@
 package ysn.codepoilitan_chatlayout.model;
 
-/**
- * Created by root on 28/01/17.
- */
+//Ini ada pesan dan waktu buat datanya
 
 public class DataSms {
 

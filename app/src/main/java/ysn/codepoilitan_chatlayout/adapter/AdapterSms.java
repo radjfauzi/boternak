@@ -11,27 +11,30 @@ import java.util.List;
 import ysn.codepoilitan_chatlayout.R;
 import ysn.codepoilitan_chatlayout.model.DataSms;
 
-/**
- * Created by root on 28/01/17.
- */
+
 
 public class AdapterSms extends RecyclerView.Adapter<AdapterSms.ViewHolder> {
 
     public static final int VIEW_TYPE_KANAN = 1;
     public static final int VIEW_TYPE_KIRI = 2;
 
+    //list Data pesan yang diproses
     List<Integer> listViewType;
     List<DataSms> listDataSms;
+
 
     public AdapterSms(List<Integer> listViewType, List<DataSms> listDataSms) {
         this.listViewType = listViewType;
         this.listDataSms = listDataSms;
     }
 
+    //overide method abstrak dari kelas RecyclerView
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+       //buat ngerubah view, pesan disimpan di kanan atau di kiri
         View view;
         if (viewType == VIEW_TYPE_KANAN) {
+            //LayoutInflater buat ngerubah ke kanan atau kiri
              view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_sisi_kanan, null);
             return new ItemSisiKananViewHolder(view);
         } else {
@@ -44,6 +47,7 @@ public class AdapterSms extends RecyclerView.Adapter<AdapterSms.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
         int viewType = listViewType.get(position);
         DataSms dataSms = listDataSms.get(position);
+        //buat getter pesan dan waktu
         if (viewType == VIEW_TYPE_KANAN) {
             ItemSisiKananViewHolder itemSisiKananViewHolder = (ItemSisiKananViewHolder) holder;
             itemSisiKananViewHolder.textViewPesanItemSisiKanan.setText(dataSms.getPesan());

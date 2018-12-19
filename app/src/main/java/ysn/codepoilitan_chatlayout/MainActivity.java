@@ -76,12 +76,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //  mengecek keberadaan SD Card
         boolean sdCardAvailable = isSdCardAvailable();
 
-        //  Dari app direktorinya simpan ke asset
+        //  Dari app direktorinya simpan ke asset di storage
         AssetManager assetManager = getResources().getAssets();
         File dir = new File(Environment.getExternalStorageDirectory().toString() + "/chatbot/bots/Popoyo");
         boolean makeDir = dir.mkdirs();
         if (dir.exists()) {
-            //  reading the file assets
+            //  membaca file asset
             try {
                 for (String fileAsset : assetManager.list("chatbot")) {
                     File subdir = new File(dir.getPath() + "/" + fileAsset);
@@ -110,12 +110,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
 
-        //  get the working directory
+        //  buat ngakses aimlnya
         MagicStrings.root_path = Environment.getExternalStorageDirectory().toString() + "/chatbot";
         System.out.println("working directory: " + MagicStrings.root_path);
         AIMLProcessor.extension = new PCAIMLProcessorExtension();
 
-        //  assign the AIML files to bot for processing
+        //  instansiasi supaya jalan
         bot = new Bot("Popoyo", MagicStrings.root_path, "chat");
         chat = new Chat(bot);
 
@@ -123,11 +123,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         listViewType = new ArrayList<>();
         listViewType.add(AdapterSms.VIEW_TYPE_KIRI);
 
+        //pesan awal
         listDataSms = new ArrayList<>();
         DataSms dataSms = new DataSms();
         dataSms.setPesan("Selamat datang di Boternak! Kami menyediakan kumpulan informasi mengenai pengelolaan peternakan. Kamu ingin bertanya tentang hewan ternak apa?");
         dataSms.setWaktu(simpleDateFormat.format(new Date()));
         listDataSms.add(dataSms);
+
 
         adapterSms = new AdapterSms(listViewType, listDataSms);
 
@@ -136,6 +138,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         recyclerViewMain.setAdapter(adapterSms);
     }
 
+    //buat copy file
     private void copyFile(InputStream in, OutputStream out) throws IOException {
         byte[] buffer = new byte[1024];
         int read;
@@ -144,11 +147,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    //ada sd card atau engga
     private boolean isSdCardAvailable() {
         return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED) ? true : false;
     }
 
-
+    //Saat klik tombol
     @Override
     public void onClick(View view) {
         if (view == floatingActionButtonKirimPesan) {
