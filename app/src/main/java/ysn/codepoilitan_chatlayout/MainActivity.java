@@ -1,5 +1,6 @@
 package ysn.codepoilitan_chatlayout;
 
+//import library
 import android.content.res.AssetManager;
 import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
@@ -32,40 +33,50 @@ import java.util.List;
 import ysn.codepoilitan_chatlayout.adapter.AdapterSms;
 import ysn.codepoilitan_chatlayout.model.DataSms;
 
+//kelas utama
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    //deklarasi variabel yang nantinya untuk mengambil id di layout
     private static final String TAG = "MainActivityTAG";
     private RecyclerView recyclerViewMain;
     private EditText editTextIsiPesan;
     private FloatingActionButton floatingActionButtonKirimPesan;
 
+    //ngambil list di masukkan ke adapter
     List<Integer> listViewType;
     List<DataSms> listDataSms;
     AdapterSms adapterSms;
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss");
 
+    //deklarasi bit
     private Bot bot;
     private Chat chat;
 
     @Override
+
+    //Ketika nyalain program, ini berjalan. mainnya
     protected void onCreate(Bundle savedInstanceState) {
+        //kalau android, kalau kita ngubah aplikasi ke aplikasi lain. status programnya bakal disimpan di bundle
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //ngambil id disimpan ke variabel
         recyclerViewMain = (RecyclerView) findViewById(R.id.recycler_view_main);
         editTextIsiPesan = (EditText) findViewById(R.id.edit_text_isi_pesan);
         floatingActionButtonKirimPesan = (FloatingActionButton) findViewById(R.id.floating_action_button_kirim_pesan);
 
         loadData();
 
+        //kalau di klik
         floatingActionButtonKirimPesan.setOnClickListener(this);
     }
 
+    //
     private void loadData() {
-        //  checking SD Card availability
+        //  mengecek keberadaan SD Card
         boolean sdCardAvailable = isSdCardAvailable();
 
-        //  receiving the assets from the app directory
+        //  Dari app direktorinya simpan ke asset
         AssetManager assetManager = getResources().getAssets();
         File dir = new File(Environment.getExternalStorageDirectory().toString() + "/chatbot/bots/Popoyo");
         boolean makeDir = dir.mkdirs();
@@ -85,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         in = assetManager.open("chatbot/" + fileAsset + "/" + file);
                         out = new FileOutputStream(dir.getPath() + "/" + fileAsset + "/" + file);
 
-                        //  copy file from assets to the mobile SD card or any secondary memory
+                        // copy filecopy file from assets to the mobile SD card or any secondary memory
                         copyFile(in, out);
                         in.close();
                         in = null;
